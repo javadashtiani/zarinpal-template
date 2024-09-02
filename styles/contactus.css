@@ -1,0 +1,142 @@
+.contactus-title {
+  background: linear-gradient(135.45deg, #21274e, #2b4a83);
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  height: 78px;
+  margin-bottom: 90px;
+}
+.contactus-title h2 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 78px;
+  font-family: "YekanBakhHeavy";
+}
+.info {
+  margin-bottom: 75px;
+}
+.info .info-right {
+  padding: 0 8px;
+  width: 41%;
+}
+.info-right__title {
+  margin-top: 20px;
+  margin-bottom: 83px;
+  color: #303030;
+  font-size: 20px;
+  font-family: "YekanBakhBold";
+}
+
+.info-right__content .info-right__content__items {
+  margin-bottom: 20px;
+}
+.text-black {
+  color: #424242;
+  font-size: 16px;
+  font-family: "YekanBakhMedium";
+}
+.fax-number {
+  margin-right: 60px;
+}
+.text-secondary {
+  font-size: 16px;
+  font-size: 16px;
+  font-family: "YekanBakhMedium";
+  color: #6d7278;
+  margin-right: 9px;
+}
+.info-left {
+  width: 58%;
+}
+.info-left img {
+  width: 100%;
+  object-fit: cover;
+}
+.new-box {
+  border: 1px solid #c3c6cd;
+  border-radius: 10px;
+  padding: 0 44px;
+  margin-top: 66px;
+  height: 82px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.new-box h3 {
+  font-size: 16px;
+  color: #6d7278;
+  font-family: "YekanBakhMedium";
+  font-weight: 500;
+}
+.new-box a {
+  background: transparent linear-gradient(270deg, #ffd900, #ffe422) 0 0
+    no-repeat padding-box;
+  font-size: 14px;
+  padding: 4px 14px;
+  font-family: "iranyekanwebregular";
+  border-radius: 10px;
+  color: #000;
+  line-height: 28px;
+  display: inline-block;
+}
+.contact-us {
+  margin-bottom: 100px;
+  border: 1px solid #c3c6cd;
+  border-radius: 10px;
+  justify-content: flex-start;
+}
+.contact-us-box {
+  padding: 80px 57px;
+}
+.contact-us-right {
+  width: 40%;
+}
+.contact-us-right img {
+  width: 100%;
+  height: 100%;
+}
+.contact-us-left {
+  width: 60%;
+  margin: 0 101px;
+  padding: 0 8px;
+}
+.contact-us-left p {
+  margin: 16px 0;
+  font-size: 16px;
+  color: #6d7278;
+  font-family: "YekanBakhMedium";
+}
+.contact-us-left__content {
+  width: 322px;
+}
+.contact-us-left div input {
+  border: 1px solid #d2d2d2;
+  outline: 0;
+  font-size: 13px;
+  color: #80868a;
+  background: transparent;
+  transition: border-color 0.2s;
+  border-radius: 10px;
+  padding-right: 23px;
+  height: 37px;
+  margin-bottom: 20px;
+  font-family: "YekanBakhMedium";
+  width: 300px;
+}
+.next {
+  justify-content: flex-end;
+  margin-top: 17px;
+  margin-left: 20px;
+}
+.next a {
+  display: inline-block;
+  padding: 4px 14px;
+  background: transparent linear-gradient(270deg, #ffd900, #ffe422) 0 0
+    no-repeat padding-box;
+  font-size: 14px;
+  border-radius: 10px;
+  font-family: "iranyekanwebregular";
+  color: #000;
+  line-height: 28px;
+}

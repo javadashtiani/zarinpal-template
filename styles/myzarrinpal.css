@@ -1,0 +1,186 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background: var(--zarrinpal-bg);
+}
+.zarinpal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 938px;
+  height: 530px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.zarinpal .zarinpal-right {
+  width: 383px;
+  padding: 0 8px;
+  background: #fff;
+}
+.zarinpal-content {
+  padding: 30px;
+}
+.zarinpal-content__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.zarinpal-content__header a {
+  display: inline-block;
+  border: 1px solid #e6e6ea;
+  padding: 0 16px;
+  border-radius: 21px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "YekanBakhBold";
+  color: #656565;
+}
+.zarinpal-content__header img {
+  width: 116px;
+  height: 35px;
+}
+.zarinpal-content__body h3 {
+  margin-bottom: 24px;
+  color: #000;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: "YekanBakhHeavy";
+  margin-top: -10px;
+}
+.zarinpal-content__body p {
+  color: #424242;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-top: -22px;
+  font-family: "iranyekanwebregular";
+}
+.zarinpal-content__body a {
+  font-size: 15px;
+  color: #187ff7;
+  font-family: "YekanBakhMedium";
+}
+.zarinpal-login {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+.zarinpal-login input {
+  width: 100%;
+  padding: 0 13px;
+  outline: none;
+  font-size: 13px;
+  border: 1px solid #c0c0c0;
+  height: 48px;
+  line-height: 48px;
+  display: flex;
+  border-radius: 10px;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+.zarinpal-login input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  font-family: "iranyekanwebregular";
+}
+.zarinpal__link {
+  margin-top: 26px;
+  justify-content: end;
+}
+.zarinpal__link a {
+  font-size: 14px;
+  color: #000;
+  box-shadow: 0 6px 20px 0 rgba(255, 237, 0, 0.39);
+  background-color: #ffe53b;
+  padding: 0 24px;
+  height: 34px;
+  line-height: 34px;
+  font-family: "iranyekanwebmedium";
+  border-radius: 21px;
+}
+.zarinpal .zarinpal-left {
+  width: 554px;
+  height: 530px;
+}
+.zarinpal .zarinpal-left .zarinpal-left__baner {
+  background: url("/images/instantPayout-new.png") no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+.show-in-mobile {
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    bottom: -100%;
+    z-index: 999;
+    padding: 16px 12px;
+    background: #fff;
+    backdrop-filter: blur(10px);
+    border-radius: 10px 10px 0 0;
+    color: #000;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -ms-transition: .4s ease;
+    -o-transition: .4s ease;
+}
+.bottom {
+    bottom: -100%;
+}
+.show-in-mobile-right {
+    align-items: center;
+}
+.show-in-mobile-right a {
+    color: #000;
+    height: 100%;
+}
+.show-in-mobile-right a svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+.zarinpal__logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 9px;
+}
+.zarinpal__text {
+    flex-direction: column;
+    margin-right: 10px;
+    font-family: "YekanBakhBold";
+
+}
+.zarinpal__text span:first-child {
+    font-size: 12px;
+    line-height: 17px;
+    color: #818a8d;
+}
+.zarinpal__text span:last-child {
+    color: rgb(45, 52, 54);
+    font-size: 12px;
+    line-height: 17px;
+}
+.show-in-mobile-left a {
+    background: #2b4a83;
+    color: #fff;
+    padding: 0 14px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+}
